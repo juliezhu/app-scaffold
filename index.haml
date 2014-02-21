@@ -1,0 +1,55 @@
+!!! 5
+%html{:lang => "en", :data => {:language => "en"}}
+  %head
+    %title The Website Title
+    %meta{:charset => "utf-8"}/
+    %meta{:name => "description", :content => "The website"}/
+    %meta{:name => "author", :content => "the author"}/
+    %meta{:name => "DC.title", :lang => "en", :content => "The website title"}/
+    %meta{:name => "DC.Creator", :content => "the creator"}/
+    %meta{:name => "DC.subject", :content => "the subject"}/
+    %meta{:name => "DC.publisher", :content => "the publisher"}/
+    %meta{:name => "DC.format", :schema => "DCTERMS.IMT", :content => "text/html"}/
+    %meta{:name => "rightts", :content => "All rights reserved"}/
+
+    -# http://t.co/dKP3o1e
+    %meta{:name => "HandHeldFriendly", :content => "True"}/
+    %meta{:name => "MobileOptimized", :content => "320"}/
+
+    -# for all browsers
+    %link{:rel => "stylesheet", :href => "stylesheets/main.css"}/
+    /[if IE]
+      %link{:rel => "stylesheet", :href => "stylesheets/ie.css"}/
+    %link{:rel => "stylesheet", :href => "stylesheets/print.css"}/     
+
+    -# icons
+    -# 16x16
+    %link{:rel => "shortcut icon", :href => "favicon.ico"}/
+    -# 32x32
+    %link{:rel => "shortcut icon", :href => "favicon.png"}/
+
+    -# IOS
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}/
+
+    -# windows 8 / RT
+    %meta{:name => "msapplication-TileImage", :content => "apple-touch-icon-114x114-precomposed.png"}/
+    %meta{:name => "msapplication-TileColor", :content => "#fff"}/
+    
+    -# cleartype
+    %meta{:'http-equiv' => "cleartype", :content => "on"}/
+    
+    %script{:type => "text/javascript", :src => "javascripts/vendor/custom.modernizr.js"}
+    %script{:type => "text/javascript", :src => "javascripts/vendor/jquery.js"}
+
+    -# typekit fonts in case use them
+    -# %script{:type => "text/javascript", :src => "//use.typekit.net/zpu5lhz.js"}
+
+  %body
+    #container
+      #content
+
+    
+  -# init typekit
+  -#:javascript
+  -#  try{Typekit.load();}catch(e){}
+

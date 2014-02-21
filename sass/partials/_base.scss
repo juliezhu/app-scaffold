@@ -1,0 +1,18 @@
+// ==========================================================================
+
+// THE PROJECT NAME HERE
+// Version: 1.0
+// URL: http://projectname
+// Author: theblueshome
+
+// base.scss - imports for all mixins + global project variables
+
+// ==========================================================================
+
+// Use Compass
+@import "compass";
+@import "modules/all";
+
+// Use gems
+@import "singularitygs";
+@import "modular-scale";

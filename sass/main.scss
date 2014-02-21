@@ -1,0 +1,26 @@
+/* ==========================================================================
+
+THE PROJECT NAME HERE
+Version: 1.0
+URL: http://projectname
+Author: theblueshome
+
+main.scss - primary Sass file
+
+========================================================================== */
+// variables
+@import "vars";
+
+// Lib
+@import "lib/base";
+
+// Modules
+@import "partials/base";
+
+// Partials
+@import "partials/normalize";
+@import "partials/typography";
+@import "partials/layout";
+
+// Third-party
+

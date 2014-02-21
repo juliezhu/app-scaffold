@@ -1,0 +1,48 @@
+body {
+  font-size: 100%;
+  line-height: 1.563;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 400; }
+
+p {
+  margin: 1.563rem 0; }
+  p + p {
+    text-indent: 1.094em; }
+
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+h1 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 2.625rem;
+  line-height: 1.2;
+  margin: 4.689rem 0 1.563rem 0; }
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.785;
+  margin: 4.689rem 0 1.563rem 0; }
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.388;
+  margin: 4.689rem 0 -1.563rem 0; }
+
+b {
+  font-weight: 600; }
+
+i {
+  font-style: italic; }
+
+button {
+  height: 3.126rem;
+  line-height: 1.4;
+  border: 0;
+  margin-bottom: 1.563rem;
+  text-transform: uppercase;
+  padding: 0 1.094em;
+  box-sizing: border-box; }
