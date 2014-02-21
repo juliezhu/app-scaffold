@@ -1,8 +1,5 @@
 # .gitignore template file for various enviroments
 #
-############## repo specific #####################
-/playground
-
 
 ############## os and editors ####################
  
