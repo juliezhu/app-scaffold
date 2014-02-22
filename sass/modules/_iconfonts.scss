@@ -1,0 +1,39 @@
+// ==========================================================================
+
+// THE PROJECT NAME HERE
+// Version: 1.0
+// URL: http://projectname
+// Author: theblueshome
+
+// iconfonts.scss - define classes and rules for project icon font
+
+// ==========================================================================
+
+@font-face {
+  font-family: 'iconfont';
+  src:url('/assets/fonts/project-icons/project-icons-regular-webfont.eot');
+  src:url('/assets/fonts/project-icons/project-icons-regular-webfont.eot') format('embedded-opentype'),
+    url('/assets/fonts/project-icons/project-icons-regular-webfont.woff') format('woff'),
+    url('/assets/fonts/project-icons/project-icons-regular-webfont.ttf') format('truetype'),
+    url('/assets/fonts/project-icons/project-icons-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  @extend  %font-smoothing;
+  
+  font-family: 'iconfont';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+// social icons
+.icon-social-facebook:before { content: "\e002"; }
+.icon-social-twitter:before { content: "\e003"; }
+.icon-social-pinterest:before { content: "\e004"; }
+.icon-social-tumblr:before { content: "\e006"; }

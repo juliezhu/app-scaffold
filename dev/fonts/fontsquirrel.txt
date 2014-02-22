@@ -1,0 +1,5 @@
+# Font Squirrel Font-face Generator Configuration File
+# Upload this file to the generator to recreate the settings
+# you used to create these fonts.
+ 
+{"mode":"expert","formats":["ttf","woff","eot","svg"],"tt_instructor":"default","options_subset":"advanced","subset_custom":"","subset_custom_range":"f000-f073,f200-f273","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0","rememberme":"Y"}
