@@ -19,9 +19,9 @@ A usefull collection of code. File in this folder are not imported in main proje
 
 ## Development files
 
-## fonts
+### fonts
 master version for icons' font in open type format and file with settings for fontsquirrel webfont generator.
 
-## Glyphs
+### Glyphs
 Glyphs two original files with different metrics. 
 [Glyphs app](http://www.glyphsapp.com/)
