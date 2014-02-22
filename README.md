@@ -11,4 +11,4 @@ he partials directory is where to break stylesheets into header, content, sideba
 ### Vendor
 The vendor directory is for third-party CSS. As a general rule you have not to modify files in this vendor directory.
 
-[For more info read Dale Sande's article](http://gist.io/4436524)
+[All credits to John W. Longe](http://thesassway.com/beginner/how-to-structure-a-sass-project)
