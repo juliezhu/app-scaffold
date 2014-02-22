@@ -5,37 +5,15 @@
 // URL: http://projectname
 // Author: theblueshome
 
-// typography.scss
+// utilities.scss - common mixins and extensions
 
 // ==========================================================================
-// family:             Arial:       system
-// ==========================================================================
 
+// placholders
 
-
-// basic setting
-
-body {
-
-}
-p {
-
+%hide-text {
+  overflow: hidden;
+  text-indent: -9999px;
 }
 
-// Headers
-
-h1, h2, h3,{
-
-}
-
-// Elements
-
-b {
-
-}
-i {
-
-}
-
-
-
+// mixins
