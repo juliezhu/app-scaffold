@@ -18,6 +18,37 @@ Author: theblueshome
 vars.scss - All your projects variables here
 
 ========================================================================== */
+.icon {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("/assets/fonts/project-icons/project-icons-regular-webfont.eot");
+  src: url("/assets/fonts/project-icons/project-icons-regular-webfont.eot") format("embedded-opentype"), url("/assets/fonts/project-icons/project-icons-regular-webfont.woff") format("woff"), url("/assets/fonts/project-icons/project-icons-regular-webfont.ttf") format("truetype"), url("/assets/fonts/project-icons/project-icons-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon {
+  font-family: 'iconfont';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none; }
+
+.icon-social-facebook:before {
+  content: "\e002"; }
+
+.icon-social-twitter:before {
+  content: "\e003"; }
+
+.icon-social-pinterest:before {
+  content: "\e004"; }
+
+.icon-social-tumblr:before {
+  content: "\e006"; }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main,
 nav, section, summary {
   display: block; }

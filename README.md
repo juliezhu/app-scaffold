@@ -12,6 +12,16 @@ he partials directory is where to break stylesheets into header, content, sideba
 The vendor directory is for third-party CSS. As a general rule you have not to modify files in this vendor directory.
 
 ### Lib
-All usefull stuff you could bring with you project by project. Files in this folder can't be modified to suit a single project.
+A usefull collection of code. File in this folder are not imported in main project by default.
 
 [All credits to John W. Longe](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+
+
+## Development files
+
+## fonts
+master version for icons' font in open type format and file with settings for fontsquirrel webfont generator.
+
+## Glyphs
+Glyphs two original files with different metrics. 
+[Glyphs app](http://www.glyphsapp.com/)
