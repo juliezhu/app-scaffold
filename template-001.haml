@@ -45,12 +45,35 @@
     -# typekit fonts in case use them
     -# %script{:type => "text/javascript", :src => "//use.typekit.net/foo.js"}
 
-  %body
-    #container
-      #content
+  %body#pageID.pageGroup
+
+    -# begin the document header
+    %header
+      %h1
+        %a{:href => "#"} Document title
+      %nav 
+        %ul 
+          %li.active 
+            %a{:href => "#"} link 
+          %li 
+            %a{:href => "#"} link
+          %li 
+            %a{:href => "#"} link
+          %li 
+            %a{:href => "#"} link
+    -# end the document header
+
+    -# begin the document content
+    %section
+      %ol#posts-list.hfeed
+        %li 
+          %article.hentry
+            %h2.entry-title
+              %a{:href => "#", :rel=> "bookmark", :title => "Permalink to this POST TITLE"} This is the title of the post
+
+    -# end the document header
 
 
   -# init typekit
   -# :javascript
   -#  try{Typekit.load();}catch(e){}
-
